@@ -1,0 +1,70 @@
+/* default.css */
+
+body 	{	
+		font-family: 'Gayathri', serif;
+		background-color: LightGray;
+		color: Black;
+		}
+header, footer, nav, h2, h1, figure
+		{
+		text-align: center;
+		}
+/*image centering*/
+.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		}
+dt		{
+		font-weight: bold;
+		}
+
+main 	{
+		font-size: 20px;
+		padding: 0;
+		margin: 60px;
+		}
+/*Navbar styling*/
+nav ul {	
+		list-style-type: none;
+		margin: 0px;
+		margin-left: -8px;
+		padding: 0px;
+		overflow: hidden;
+		background-color: Brown;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		}
+nav li {	
+		float: left;
+		border-right: 1px solid #bbb;
+		}
+nav li a	
+		{
+		display: block;
+		color: Yellow;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		}
+nav li a:hover 
+		{
+		background-color: BlueViolet;
+		}
+#contact 
+		{	
+		float: right;
+		}
+#workplaceimg 
+		{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+/*hyperlink colours*/
+ol a, footer a:link {color: purple; text-decoration: none;}
+ol a, footer a:visited {color: green;}
+ol a, footer a:hover {color: blue;}
+ol a, footer a:active {color: green;}

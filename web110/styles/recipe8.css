@@ -1,0 +1,30 @@
+/*recipe8.css*/
+/* https://coolors.co/4f454c-aaa694-d1d0a3-ebf8b8-ffe787 */
+/* colour scheme*/
+body 	
+		{
+		font-family: 'Hind Madurai', sans-serif;
+		background-image: url("http://students.cpcc.edu/~dallson0/web110/images/cindutchbaby.jpg");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #4F454C;
+		color: #AAA694;
+		margin-top: 570px;
+		}
+h1, h2  
+		{
+		text-align: center;
+		}
+h1		
+		{	
+		font-size: xx-large;
+		}
+h2
+		{
+		font-size: x-large;
+		}
+p
+		{
+		font-size: large;
+		}
